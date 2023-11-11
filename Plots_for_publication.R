@@ -1,8 +1,6 @@
 library(tidyverse)
 library(tidytext)
 
-setwd("~/RPROJECTS/HumanFlourishing/twitter_Analysis/lists/")
-
 all_tokens <- readRDS("all_tokens2.rds")
 
 #recode
