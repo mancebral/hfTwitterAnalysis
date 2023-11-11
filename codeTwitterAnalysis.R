@@ -1,7 +1,7 @@
 library(tidyverse)
 library(tidytext)
 
-all_tokens <- readRDS("all_tokens2.rds")
+all_tokens <- readRDS("allTokens.rds")
 
 #recode
 all_tokens$type <- recode(all_tokens$type, 
